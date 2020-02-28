@@ -1,0 +1,34 @@
+th{
+    border-style: solid;
+  }
+  td{
+    border-style: solid;
+    text-align: center;
+    padding: 20px;
+  }
+  #ja h1{
+    color: green;
+  
+  
+  }
+  #fj h1{
+    color: green;
+  
+  
+  }
+  #em{
+  color: green;
+  
+  }
+  #preform{
+  color: purple;
+  
+  }
+  #his{
+  color: yellow;
+  
+  }
+  #filler{
+    color: maroon;
+  
+  }
