@@ -94,12 +94,62 @@
   </header>
   <!-- End of carousel-->
 
-  <!-- Page Content -->
-  <div class="container">
+	  <!-- Page Content -->
+	  <div class="container">
+		  <br>
+		  <div class="row">
+<div class="col-sm-6 col-md-2 col-lg-2">
+
+<form class="d-flex justify-content-center">
+	<fieldset>
+		<legend>Price Range</legend>
+		
+		
+
+			<div class="panel panel-default ">
+			
+					<div class="panel-body ">
+						<div id="myBtnContainer" class="btn-group-vertical ">
+						  <button class="btn btn-secondary active" onclick="filterSelection('all')"> Show all</button>
+						  <button class="btn btn-secondary" onclick="filterSelection('200')"> &euro;0-&euro;200</button>
+						  <button class="btn btn-secondary" onclick="filterSelection('400')"> &euro;201-&euro;400</button>
+						  <button class="btn btn-secondary" onclick="filterSelection('599')">&euro;401-&euro;600</button>
+						  <button class="btn btn-secondary" onclick="filterSelection('over600')"> over &euro;600</button>
+						</div>
+					</div>
+				</div>
+
+
+	</fieldset>
+	</form>
+</div>
+
+	<div class="col-sm-6 col-md-10 col-lg-10">
+	   
+    		<ul>
+				<li class="filterLi 400"><a class="list" href="#idname">Hotel 1</a><hr><p class="pricetag">&euro;265.00<span class="smallsp">/Night</span></p></li>
+				<li class="filterLi 400"><a class="list" href="#idname">Hotel 2</a><hr><p class="pricetag">&euro;365.00<span class="smallsp">/Night</span></p></li>
+				<li class="filterLi 200"><a class="list" href="#idname">Hotel 3</a><hr><p class="pricetag">&euro;165.00<span class="smallsp">/Night</span></p></li>
+				<li class="filterLi over600"><a class="list" href="#idname">Hotel 4</a><hr><p class="pricetag">&euro;665.00<span class="smallsp">/Night</span></p></li>
+				<li class="filterLi 400"><a class="list" href="#idname">Hotel 1</a><hr><p class="pricetag">&euro;255.00<span class="smallsp">/Night</span></p></li>
+				<li class="filterLi 599"><a class="list" href="#idname">Hotel 2</a><hr><p class="pricetag">&euro;490.00<span class="smallsp">/Night</span></p></li>
+				<li class="filterLi 200"><a class="list" href="#idname">Hotel 3</a><hr><p class="pricetag">&euro;150.00<span class="smallsp">/Night</span></p></li>
+				<li class="filterLi over600"><a class="list" href="#idname">Hotel 4</a><hr><p class="pricetag">&euro;450.00<span class="smallsp">/Night</span></p></li>
+				<li class="filterLi 200"><a class="list" href="#idname">Hotel 1</a><hr><p class="pricetag">&euro;120.00<span class="smallsp">/Night</span></p></li>
+				<li class="filterLi 400"><a class="list" href="#idname">Hotel 2</a><hr><p class="pricetag">&euro;370.00<span class="smallsp">/Night</span></p></li>
+				<li class="filterLi 599"><a class="list" href="#idname">Hotel 3</a><hr><p class="pricetag">&euro;470.00<span class="smallsp">/Night</span></p></li>
+				<li class="filterLi over600"><a class="list" href="#idname">Hotel 4</a><hr><p class="pricetag">&euro;550.00<span class="smallsp">/Night</span></p></li>
+			</ul>
+
+	</div>
+	
+
+</div>
+<!--end row-->
 
     
 	</div>
-  <!-- container -->
+ 	<!-- container -->
 
   <!-- Footer -->
   <footer class="py-5 bg-dark">
@@ -120,7 +170,8 @@
     </div>
     <!--Footer ends -->
   </footer>
-
+<!-- Custom JavaScript -->
+<script src="custom.js"></script>
   <!-- Bootstrap core JavaScript -->
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
