@@ -1,7 +1,7 @@
 filterSelection("all")
 function filterSelection(c) {
-  let x, i;
-  x = document.getElementsByClassName("filterLi");
+  var x, i;
+  x = document.getElementsByClassName("filterDiv");
   if (c == "all") c = "";
   for (i = 0; i < x.length; i++) {
     removeClass(x[i], "show");
@@ -10,7 +10,7 @@ function filterSelection(c) {
 }
 
 function addClass(element, name) {
-  let i, arr1, arr2;
+  var i, arr1, arr2;
   arr1 = element.className.split(" ");
   arr2 = name.split(" ");
   for (i = 0; i < arr2.length; i++) {
@@ -19,7 +19,7 @@ function addClass(element, name) {
 }
 
 function removeClass(element, name) {
- let i, arr1, arr2;
+  var i, arr1, arr2;
   arr1 = element.className.split(" ");
   arr2 = name.split(" ");
   for (i = 0; i < arr2.length; i++) {
@@ -31,13 +31,12 @@ function removeClass(element, name) {
 }
 
 // Add active class to the current button (highlight it)
-let btnContainer = document.getElementById("myBtnContainer");
-let btns = btnContainer.getElementsByClassName("btn");
-for (let i = 0; i < btns.length; i++) {
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
   btns[i].addEventListener("click", function(){
-    let current = document.getElementsByClassName("active");
+    var current = document.getElementsByClassName("active");
     current[0].className = current[0].className.replace(" active", "");
     this.className += " active";
   });
 }
-
