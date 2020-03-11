@@ -154,7 +154,7 @@ body {
 /* ************************************************************************** */
 
 /*price range search*/
-.filterLi {
+.filterDiv {
   float: left;
   width: 20%;
   line-height: 20px;
@@ -220,18 +220,12 @@ hr{
   background-color: #666;
   color: white;
 }
-fieldset {
-  display: block;
-  margin: 0 auto;
-  padding-right: 5px;
-  padding-bottom: 10px;
-  padding-left: 10px;
-  border: 1px solid #ccc;
+h2{
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-align: center;
+  text-shadow: 3px 3px 3px #ccc;
+  color: #666;
+}
 
-}
-legend{
-	font-size: 0.8em;
-	text-transform: uppercase;
-	letter-spacing: 0.2em;
-}
 /*end price range search*/
