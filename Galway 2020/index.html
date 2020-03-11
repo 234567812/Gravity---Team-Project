@@ -97,245 +97,35 @@
   <!-- Page Content -->
   <div class="container">
 		
-	  <div class="row">
-<div class="col-sm-6 col-md-2 col-lg-2">
+	 <h2>Price Range selection</h2>
 
-<form class="d-flex justify-content-center">
-	<fieldset>
-		<legend>Price Range</legend>
-		
-		
-
-			<div class="panel panel-default ">
-			
-					<div class="panel-body ">
-						<div id="myBtnContainer" class="btn-group-vertical ">
-						  <button class="btn btn-secondary active" onclick="filterSelection('all')"> Show all</button>
-						  <button class="btn btn-secondary" onclick="filterSelection('200')"> &euro;0-&euro;200</button>
-						  <button class="btn btn-secondary" onclick="filterSelection('400')"> &euro;201-&euro;400</button>
-						  <button class="btn btn-secondary" onclick="filterSelection('599')">&euro;401-&euro;600</button>
-						  <button class="btn btn-secondary" onclick="filterSelection('over600')"> over &euro;600</button>
-						</div>
-					</div>
-				</div>
-
-
-	</fieldset>
-	</form>
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('1')"> &euro;0-&euro;200</button>
+  <button class="btn" onclick="filterSelection('2')">&euro;201-&euro;400</button>
+  <button class="btn" onclick="filterSelection('3')"> &euro;401-&euro;600</button>
+  <button class="btn" onclick="filterSelection('4')"> over &euro;600</button>
+  <button class="btn" onclick="filterSelection('5')"> Restaurants</button>
 </div>
 
-	<div class="col-sm-6 col-md-10 col-lg-10">
-	   
-    		<ul>
-				<li class="filterLi 400"><a class="list" href="#idname">Hotel 1</a><hr><p class="pricetag">&euro;265.00<span class="smallsp">/Night</span></p></li>
-				<li class="filterLi 400"><a class="list" href="#idname">Hotel 2</a><hr><p class="pricetag">&euro;365.00<span class="smallsp">/Night</span></p></li>
-				<li class="filterLi 200"><a class="list" href="#idname">Hotel 3</a><hr><p class="pricetag">&euro;165.00<span class="smallsp">/Night</span></p></li>
-				<li class="filterLi over600"><a class="list" href="#idname">Hotel 4</a><hr><p class="pricetag">&euro;665.00<span class="smallsp">/Night</span></p></li>
-				<li class="filterLi 400"><a class="list" href="#idname">Hotel 1</a><hr><p class="pricetag">&euro;255.00<span class="smallsp">/Night</span></p></li>
-				<li class="filterLi 599"><a class="list" href="#idname">Hotel 2</a><hr><p class="pricetag">&euro;490.00<span class="smallsp">/Night</span></p></li>
-				<li class="filterLi 200"><a class="list" href="#idname">Hotel 3</a><hr><p class="pricetag">&euro;150.00<span class="smallsp">/Night</span></p></li>
-				<li class="filterLi over600"><a class="list" href="#idname">Hotel 4</a><hr><p class="pricetag">&euro;450.00<span class="smallsp">/Night</span></p></li>
-				<li class="filterLi 200"><a class="list" href="#idname">Hotel 1</a><hr><p class="pricetag">&euro;120.00<span class="smallsp">/Night</span></p></li>
-				<li class="filterLi 400"><a class="list" href="#idname">Hotel 2</a><hr><p class="pricetag">&euro;370.00<span class="smallsp">/Night</span></p></li>
-				<li class="filterLi 599"><a class="list" href="#idname">Hotel 3</a><hr><p class="pricetag">&euro;470.00<span class="smallsp">/Night</span></p></li>
-				<li class="filterLi over600"><a class="list" href="#idname">Hotel 4</a><hr><p class="pricetag">&euro;550.00<span class="smallsp">/Night</span></p></li>
-			</ul>
-
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+		  <div class="filterDiv 1"><a class="list" href="hotels.html">Galmont <br>Hotel</a><hr><p class="pricetag">&euro;265.00<span class="smallsp">/Night</span></p></div>
+		  <div class="filterDiv 2"><a class="list" href="hotels.html">Jurrys Inn <br>Hotel</a><hr><p class="pricetag">&euro;365.00<span class="smallsp">/Night</span></p></div>
+		  <div class="filterDiv 3"><a class="list" href="hotels.html">Galway Bay <br>Hotel</a><hr><p class="pricetag">&euro;165.00<span class="smallsp">/Night</span></p></div>
+		  <div class="filterDiv 4"><a class="list" href="hotels.html">Salthill <br>Hotel</a><hr><p class="pricetag">&euro;665.00<span class="smallsp">/Night</span></p></div>
+  </div>
+  </div>
+  <div class="row">
+		<div class="col-md-12">
+		  <div class="filterDiv 5"><a class="list" href="restaurants.html">John Keog's <br> Gastropub</a><hr><p class="pricetag">&euro;45.00<span class="smallsp">/Meal</span></p></div>
+		  <div class="filterDiv 5"><a class="list" href="restaurants.html">Hooked<br> Restaurant</a><hr><p class="pricetag">&euro;35.00<span class="smallsp">/Meal</span></p></div>
+		  <div class="filterDiv 5"><a class="list" href="restaurants.html">Biteclub <br>Streetfood</a><hr><p class="pricetag">&euro;25.00<span class="smallsp">/Meal</span></p></div>
+		  <div class="filterDiv 5"><a class="list" href="restaurants.html">Tribeton <br>Restaurant</a><hr><p class="pricetag">&euro;15.00<span class="smallsp">/Meal</span></p></div>
 	</div>
-	
-
+  </div>
 </div>
-<!--end row-->
-	  
-	  
-	<!-- Hotel section starts -->
-    <div class="row p-0" id="gradient-header">
-        <div class="col-12 text-center mx-auto p-5">
-            <div class="f-prime large thirds">
-                Hotels near you
-            </div>
-            <div class="f-second text-light">
-            </div>
-        </div>
-    </div>
-    <div class="row bg-dark p-0">
-        <div class="col-12 mx-auto p-0">
-            <div class="row mx-auto p-2">
-                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 p-2 card">
-                    <div class="thumbnail">
-					    <img src="pics/galmont.jpg">
-					    <div class="caption">
-						    <div class="f-prime sml primes">
-							    Galmont Hotel
-						    </div>
-						    <hr>
-						    <p>
-						        Just a three-minute walk from the central Eyre Square and overlooking Galway Bay, The Galmont Hotel & Spa (formerly the Radisson Blu Hotel & Spa) stands in the heart of the city. The bustling areas of Shop Street and Quay Street are just a 10 minute walk away while the rugged Connemara and lunar-like landscape of The Burren are easily reached in under one hours’ drive.
-						    </p>
-						    <div class="mb-0">
-							    <a href="https://www.thegalmont.com/" class="btn btn-card">View More</a>
-						    </div>
-					    </div>
-				    </div>
-			    </div>
-                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mx-auto p-2 card">
-                    <div class="thumbnail">
-					    <img src="pics/jurys.jpg">
-					    <div class="caption">
-						    <div class="f-prime sml primes">
-							    Jurrys Inn Hotel
-						    </div>
-						    <hr>
-						    <p>
-						        Whether you’re visiting the city for a weekend away with friends, a family holiday or a business trip, we know how important it is to find a hotel that suits your needs to a tee while you’re here in Galway. At Jurys Inn, our friendly team make sure your stay is nothing short of perfect, starting from the moment you step through the door.
-						        <br>
-						        <br>
-						    </p>
-						    <div class="mb-0">
-							    <a href="https://www.jurysinns.com/hotels/galway/?utm_source=google&utm_medium=local" class="btn btn-card">View More</a>
-						    </div>
-					    </div>
-				    </div>
-                </div>
-                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mx-auto p-2 card">
-                    <div class="thumbnail">
-                        <img src="pics/galway-bay2.jpg">
-					    <div class="caption">
-						    <div class="f-prime sml primes">
-							    Galway Bay Hotel
-						    </div>
-						    <hr>
-						    <p>
-						        For a break that’s easy on your budget there are always great value packages on offer at the Galway Bay Hotel. Take a stroll along Salthill's famous Promenade or venture into Galway City for a spot of shopping or sightseeing. Join us for your next adventure on the shores of Galway Bay overlooking the Clare hills.
-						        <br>
-						        <br>
-						        
-
-						    </p>
-						    <div class="mb-0">
-							    <a href="https://www.galwaybayhotel.net/?gclid=EAIaIQobChMIlPOhjK6Q6AIVAuDtCh2SZgvuEAAYASAAEgJnZ_D_BwE" class="btn btn-card">View More</a>
-						    </div>
-					    </div>
-				    </div>
-                </div>
-                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mx-auto p-2 card">
-                    <div class="thumbnail">
-					    <img src="pics/salthill.jpg">
-					    <div class="caption">
-						    <div class="f-prime sml primes">
-							    Salthill Hotel
-						    </div>
-						    <hr>
-						    <p>
-						        The 4 star Salthill Hotel in Galway is situated on the spectacular Salthill promenade with panoramic views of Galway Bay and the Clare Hills. Looking for hotels in Galway then choose us at the Salthill Hotel where you can view the sunsets over Galway Bay, explore the rocky shores of the Aran Islands, follow the trails of Connemara National Park.
-						    </p>
-						    <div class="mb-0">
-							    <a href="https://www.salthillhotel.com/?gclid=EAIaIQobChMIhNng_62Q6AIVTbDtCh2TogGKEAAYASAAEgKPPfD_BwE" class="btn btn-card">View More</a>
-						    </div>
-					    </div>
-				    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-  
-    <!-- Hotel section ends -->
-
-	<!--Reastaurants section starts -->
-    <div class="row p-0" id="gradient-header">
-        <div class="col-12 text-center mx-auto p-5">
-            <div class="f-prime large thirds">
-                Restaurants near you
-            </div>
-            <div class="f-second text-light">
-            </div>
-        </div>
-    </div>
-    <div class="row bg-dark p-0">
-        <div class="col-12 mx-auto p-0">
-            <div class="row mx-auto p-2">
-                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 p-2 card">
-                    <div class="thumbnail">
-					    <img src="pics/keoghs.jpg">
-					    <div class="caption">
-						    <div class="f-prime sml primes">
-							    John Keog's gastropub
-						    </div>
-						    <hr>
-						    <p>
-						        Authentic Irish Gastropub offering delightful food, wines, cocktails and craft beers with exceptional service in a relaxed, friendly atmosphere.We focus on no-nonsense food with a mix of old school classics and bold innovative dishes.
-						    </p>
-                <br>
-						    <div class="mb-0">
-							    <a href="https://www.johnkeoghs.ie/" class="btn btn-card">View More</a>
-                </div>
-					    </div>
-				    </div>
-			    </div>
-                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mx-auto p-2 card">
-                    <div class="thumbnail">
-					    <img src="pics/hooked.jpg">
-					    <div class="caption">
-						    <div class="f-prime sml primes">
-							    Hooked <br> restaurant
-						    </div>
-						    <hr>
-						    <p>
-						        Hooked is a family run  restaurant, established in 2014 on Henry Street in the Westend of Galway. The cosy setting and warm friendly atmosphere gives a sense of togetherness whether you are dining alone or in a group. 
-						        <br>
-						        <br>
-						    </p>
-						    <div class="mb-0">
-							    <a href="http://www.hookedonhenryst.com/menu" class="btn btn-card">View More</a>
-						    </div>
-					    </div>
-				    </div>
-                </div>
-                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mx-auto p-2 card">
-                    <div class="thumbnail">
-                        <img src="pics/biteclub.jpg">
-					    <div class="caption">
-						    <div class="f-prime sml primes">
-							    Biteclub streetfood
-						    </div>
-						    <hr>
-						    <p>
-						        The new space is a bar, restaurant, retro arcade, pinball parlour and event space all rolled into one. Classic games like Space Invaders and Donkey Kong are on offer, as well as a dance machine. The venue can also be booked out for events.
-						        <br>
-						        <br>
-						        <br>
-
-						    </p>
-						    <div class="mb-0">
-							    <a href="https://www.biteclub.ie/" class="btn btn-card">View More</a>
-						    </div>
-					    </div>
-				    </div>
-                </div>
-                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mx-auto p-2 card">
-                    <div class="thumbnail">
-					    <img src="pics/tribeton.jpg">
-					    <div class="caption">
-						    <div class="f-prime sml primes">
-							    Tribeton restaurant
-						    </div>
-						    <hr>
-						    <p>
-						        In a boldly-designed monumental space that has been closed from public view for several years, Tribeton has created urban, yet comfortable surroundings that pay homage to Galway’s industrial heritage and provide a backdrop for casual and relaxed dining & drinking from open ‘till close.
-						    </p>
-						    <div class="mb-0">
-							    <a href="https://www.tribeton.ie/" class="btn btn-card">View More</a>
-						    </div>
-					    </div>
-				    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-  
-    <!-- Restaurants section ends -->  
 	  
 	  
     
